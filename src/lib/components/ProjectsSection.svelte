@@ -69,7 +69,7 @@ import { t } from "$lib/i18n";
           target="_blank"
           class="neobrut-btn bg-orange-500 hover:bg-green-500 w-full inline-block text-center"
         >
-          VIEW ON GITHUB
+          {$t('projects.viewOnGithub')}
         </a>
       </div>
 
@@ -109,7 +109,7 @@ import { t } from "$lib/i18n";
           target="_blank"
           class="neobrut-btn bg-green-500 hover:bg-orange-500 w-full inline-block text-center"
         >
-          VIEW ON GITHUB
+          {$t('projects.viewOnGithub')}
         </a>
       </div>
 
@@ -149,7 +149,7 @@ import { t } from "$lib/i18n";
           target="_blank"
           class="neobrut-btn bg-purple-500 hover:bg-pink-500 w-full inline-block text-center"
         >
-          VIEW ON GITHUB
+          {$t('projects.viewOnGithub')}
         </a>
       </div>
     </div>

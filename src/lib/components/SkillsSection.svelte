@@ -39,10 +39,6 @@ import { t } from "$lib/i18n";
             class="bg-green-500 text-white px-3 py-1 text-sm font-bold neobrut-shadow-sm"
             >PYTHON (FastAPI)</span
           >
-          <span
-            class="bg-blue-500 text-white px-3 py-1 text-sm font-bold neobrut-shadow-sm"
-            >C++ (Qt5)</span
-          >
         </div>
       </div>
 
@@ -78,6 +74,10 @@ import { t } from "$lib/i18n";
           <span
             class="bg-green-500 text-white px-3 py-1 text-sm font-bold neobrut-shadow-sm"
             >CAPACITOR</span
+          >
+          <span
+            class="bg-orange-500 text-white px-3 py-1 text-sm font-bold neobrut-shadow-sm"
+            >C++ (Qt5)</span
           >
         </div>
       </div>
@@ -126,6 +126,10 @@ import { t } from "$lib/i18n";
           <span
             class="bg-orange-500 text-white px-3 py-1 text-sm font-bold neobrut-shadow-sm"
             >TERRAFORM</span
+          >
+          <span
+            class="bg-purple-500 text-white px-3 py-1 text-sm font-bold neobrut-shadow-sm"
+            >HAPROXY</span
           >
         </div>
       </div>

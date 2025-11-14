@@ -55,7 +55,8 @@
 		"driveGoMingle": {
 			"title": "DRIVEGOMINGLE",
 			"description": "Social platform for car enthusiasts featuring event management, real-time chat, media sharing, and community building. Built as a cross-platform mobile and web app."
-		}
+		},
+		"viewOnGithub": "VIEW ON GITHUB"
 	},
 	"skills": {
 		"title": "MY SKILLS",
