@@ -1,0 +1,117 @@
+{
+	"nav": {
+		"about": "ОБО МНЕ",
+		"projects": "ПРОЕКТЫ",
+		"skills": "НАВЫКИ",
+		"contact": "КОНТАКТЫ",
+		"cv": "РЕЗЮМЕ"
+	},
+	"hero": {
+		"greeting": "ПРИВЕТ, Я",
+		"name": "КИРИЛЛ",
+		"subtitle": "Backend Разработчик • Go & TypeScript",
+		"description": "Создаю масштабируемые микросервисы",
+		"viewSkills": "МОИ НАВЫКИ",
+		"getInTouch": "СВЯЗАТЬСЯ",
+		"languageStack": "СТЕК ЯЗЫКОВ",
+		"status": "СТАТУС",
+		"statusDescription": "Доступен для новых проектов и сотрудничества"
+	},
+	"about": {
+		"title": "ОБО МНЕ",
+		"whoIAm": {
+			"title": "КТО Я",
+			"description": "Занимаюсь коммерческой разработкой с 2023 года. Специализируюсь на Go и TypeScript, создаю масштабируемые микросервисные архитектуры и высокопроизводительные API."
+		},
+		"keySkills": {
+			"title": "КЛЮЧЕВЫЕ НАВЫКИ",
+			"go": "Разработка на Go (Fiber, Gin, gRPC)",
+			"typescript": "TypeScript/Node.js (Express, ElysiaJS)",
+			"architecture": "Системная Архитектура и Микросервисы"
+		},
+		"education": {
+			"title": "ОБРАЗОВАНИЕ",
+			"itmo": {
+				"name": "ITMO University",
+				"location": "Санкт-Петербург",
+				"degree": "Бакалавр, Системное и прикладное программное обеспечение"
+			},
+			"yandex": {
+				"name": "Yandex Lyceum",
+				"degree": "Основы промышленного программирования"
+			}
+		}
+	},
+	"projects": {
+		"title": "МОИ ПРОЕКТЫ",
+		"beesbiz": {
+			"title": "BEESBIZ",
+			"description": "Распределенная платформа мониторинга пчел с полным стеком наблюдаемости. В настоящее время миграция на gRPC/gRPC Gateway. Использует TiDB, PostgreSQL, RabbitMQ, Prometheus и Grafana для мониторинга по регионам."
+		},
+		"riscProcessor": {
+			"title": "RISC ПРОЦЕССОР",
+			"description": "Полная модель RISC процессора и реализация ассемблера с симуляцией CPU и тестированием"
+		},
+		"driveGoMingle": {
+			"title": "DRIVEGOMINGLE",
+			"description": "Социальная платформа для автолюбителей с управлением мероприятиями, чатом в реальном времени, обменом медиа и построением сообщества. Создано как кроссплатформенное мобильное и веб-приложение."
+		}
+	},
+	"skills": {
+		"title": "МОИ НАВЫКИ",
+		"backend": {
+			"title": "BACKEND"
+		},
+		"frontend": {
+			"title": "FRONTEND"
+		},
+		"infrastructure": {
+			"title": "ИНФРАСТРУКТУРА"
+		},
+		"databases": {
+			"title": "БАЗЫ ДАННЫХ"
+		},
+		"currentFocus": {
+			"title": "ТЕКУЩИЙ ФОКУС"
+		}
+	},
+	"contact": {
+		"title": "СВЯЗАТЬСЯ",
+		"description": "Способы связаться со мной.",
+		"email": "EMAIL",
+		"github": "GITHUB",
+		"telegram": "TELEGRAM"
+	},
+	"footer": {
+		"copyright": "© {year} kxrxh"
+	},
+	"experience": {
+		"year": "1 год",
+		"years_2_4": "года",
+		"years_5_plus": "лет"
+	},
+	"cv": {
+		"title": "МОЁ РЕЗЮМЕ",
+		"loading": "Загрузка резюме...",
+		"actions": "Действия",
+		"download": "СКАЧАТЬ РЕЗЮМЕ",
+		"contact": "СВЯЗАТЬСЯ",
+		"pdfError": "Невозможно отобразить PDF в вашем браузере",
+		"downloadAlt": "СКАЧАТЬ РЕЗЮМЕ",
+		"pageTitle": "Резюме - kxrxh",
+		"pageDescription": "Скачайте моё профессиональное резюме",
+		"backHome": "НА ГЛАВНУЮ"
+	},
+	"cvError": {
+		"title": "ОШИБКА",
+		"message": "Упс! Файл резюме отсутствует или повреждён.",
+		"help": "Не волнуйтесь, вы всё ещё можете посмотреть мои проекты и навыки ниже!",
+		"viewProjects": "ПРОСМОТРЕТЬ ПРОЕКТЫ",
+		"viewSkills": "ПРОСМОТРЕТЬ НАВЫКИ",
+		"contactMe": "СВЯЗАТЬСЯ"
+	},
+	"meta": {
+		"title": "kxrxh - Личный сайт",
+		"description": "Личный сайт-портфолио в стиле необрутализма"
+	}
+}

@@ -1,0 +1,116 @@
+{
+	"nav": {
+		"about": "ABOUT",
+		"projects": "PROJECTS",
+		"skills": "SKILLS",
+		"contact": "CONTACT",
+		"cv": "CV"
+	},
+	"hero": {
+		"greeting": "HEY, I'M",
+		"name": "KIRILL",
+		"subtitle": "Backend Developer • Go & TypeScript",
+		"description": "Building scalable microservices",
+		"viewSkills": "VIEW MY SKILLS",
+		"getInTouch": "GET IN TOUCH",
+		"languageStack": "LANGUAGE STACK",
+		"status": "STATUS",
+		"statusDescription": "Available for new projects & collaborations"
+	},
+	"about": {
+		"title": "ABOUT ME",
+		"whoIAm": {
+			"title": "WHO I AM",
+			"description": "Working on commercial development since 2023. Specialize in Go and TypeScript, building scalable microservice architectures and high-performance APIs."
+		},
+		"keySkills": {
+			"title": "KEY SKILLS",
+			"go": "Go Development (Fiber, Gin, gRPC)",
+			"typescript": "TypeScript/Node.js (Express, ElysiaJS)",
+			"architecture": "System Architecture & Microservices"
+		},
+		"education": {
+			"title": "EDUCATION",
+			"itmo": {
+				"name": "ITMO University",
+				"location": "Saint Petersburg",
+				"degree": "Bachelor in System and Applied Software"
+			},
+			"yandex": {
+				"name": "Yandex Lyceum",
+				"degree": "Industrial Programming Basics"
+			}
+		}
+	},
+	"projects": {
+		"title": "MY PROJECTS",
+		"beesbiz": {
+			"title": "BEESBIZ",
+			"description": "Distributed bee monitoring platform with full observability stack. Currently migrating to gRPC/gRPC Gateway. Uses TiDB, PostgreSQL, RabbitMQ, Prometheus, and Grafana for monitoring across regions."
+		},
+		"riscProcessor": {
+			"title": "RISC PROCESSOR",
+			"description": "Complete RISC processor model and assembler implementation with CPU simulation and testing"
+		},
+		"driveGoMingle": {
+			"title": "DRIVEGOMINGLE",
+			"description": "Social platform for car enthusiasts featuring event management, real-time chat, media sharing, and community building. Built as a cross-platform mobile and web app."
+		}
+	},
+	"skills": {
+		"title": "MY SKILLS",
+		"backend": {
+			"title": "BACKEND"
+		},
+		"frontend": {
+			"title": "FRONTEND"
+		},
+		"infrastructure": {
+			"title": "INFRASTRUCTURE"
+		},
+		"databases": {
+			"title": "DATABASES"
+		},
+		"currentFocus": {
+			"title": "CURRENT FOCUS"
+		}
+	},
+	"contact": {
+		"title": "GET IN TOUCH",
+		"description": "Ways to contact me.",
+		"email": "EMAIL ME",
+		"github": "GITHUB",
+		"telegram": "TELEGRAM"
+	},
+	"footer": {
+		"copyright": "© {year} kxrxh"
+	},
+	"experience": {
+		"year": "1 year",
+		"years": "years"
+	},
+	"cv": {
+		"title": "MY CV",
+		"loading": "Loading CV...",
+		"actions": "Quick Actions",
+		"download": "DOWNLOAD CV",
+		"contact": "GET IN TOUCH",
+		"pdfError": "Unable to display PDF in your browser",
+		"downloadAlt": "DOWNLOAD CV INSTEAD",
+		"pageTitle": "CV - kxrxh",
+		"pageDescription": "Download my professional CV and resume",
+		"backHome": "BACK TO HOME"
+	},
+	"cvError": {
+		"title": "CV ERROR",
+		"message": "Oops! The CV file seems to be missing or corrupted.",
+		"help": "Don't worry, you can still check out my projects and skills below!",
+		"viewProjects": "VIEW PROJECTS",
+		"viewSkills": "VIEW SKILLS",
+		"contactMe": "CONTACT ME"
+	},
+	"meta": {
+		"title": "kxrxh - Personal Website",
+		"description": "Personal portfolio website in neobrutalism style"
+	}
+}
