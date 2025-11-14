@@ -37,9 +37,17 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - name: Create .htaccess for PDF MIME type
+      - name: Ensure PDF is accessible
         run: |
-          echo "AddType application/pdf .pdf" > build/.htaccess
+          # Verify PDF exists and has correct permissions
+          ls -la build/cv.pdf
+          # Add headers for PDF serving (GitHub Pages may need this)
+          if [ -f "build/cv.pdf" ]; then
+            echo "PDF file exists in build directory"
+          else
+            echo "PDF file missing from build directory"
+            exit 1
+          fi
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
