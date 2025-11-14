@@ -37,6 +37,10 @@ jobs:
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
+      - name: Create .htaccess for PDF MIME type
+        run: |
+          echo "AddType application/pdf .pdf" > build/.htaccess
+
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
