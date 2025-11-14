@@ -34,7 +34,7 @@ let { scrolled }: Props = $props();
         >{$t('nav.contact')}</a
       >
       <a
-        href="cv"
+        href="#cv"
         class="neobrut-btn text-sm px-4 py-2 bg-green-500 hover:bg-yellow-400 text-white hover:text-black flex items-center gap-1"
       >
         <FileText size={14} />

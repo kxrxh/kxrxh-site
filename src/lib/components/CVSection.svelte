@@ -1,9 +1,9 @@
 <script lang="ts">
-	import { t, locale } from "$lib/i18n";
-	import { Download, MessageCircle, FileText } from "lucide-svelte";
+import { t, locale } from "$lib/i18n";
+import { Download, FileText } from "lucide-svelte";
 
-	$: downloadFilename =
-		$locale === "ru" ? "ПархоменкоКирилл_Резюме.pdf" : "ParkhomenkoKirill_CV.pdf";
+$: downloadFilename =
+	$locale === "ru" ? "ПархоменкоКирилл_Резюме.pdf" : "ParkhomenkoKirill_CV.pdf";
 </script>
 
 <section id="cv" class="min-h-screen bg-white py-20 px-8">
@@ -31,13 +31,6 @@
             >
               <Download size={16} />
               {$t('cv.download')}
-            </a>
-            <a
-              href="#contact"
-              class="neobrut-btn bg-green-500 hover:bg-green-600 text-white px-6 py-3 w-full text-center flex items-center justify-center gap-2"
-            >
-              <MessageCircle size={16} />
-              {$t('cv.contact')}
             </a>
           </div>
         </div>

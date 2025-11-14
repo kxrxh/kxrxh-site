@@ -4,6 +4,7 @@ import HeroSection from "$lib/components/HeroSection.svelte";
 import AboutSection from "$lib/components/AboutSection.svelte";
 import ProjectsSection from "$lib/components/ProjectsSection.svelte";
 import SkillsSection from "$lib/components/SkillsSection.svelte";
+import CVSection from "$lib/components/CVSection.svelte";
 import ContactSection from "$lib/components/ContactSection.svelte";
 import { t, locale } from "$lib/i18n";
 
@@ -32,4 +33,5 @@ $effect(() => {
 <AboutSection />
 <ProjectsSection />
 <SkillsSection />
+<CVSection />
 <ContactSection />
