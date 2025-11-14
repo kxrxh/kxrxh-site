@@ -14,6 +14,8 @@ function switchLanguage(newLocale: string) {
 
 	$locale = newLocale;
 
+	localStorage.setItem("preferred-language", newLocale);
+
 	// Restore scroll position after the DOM updates
 	setTimeout(() => {
 		window.scrollTo(0, currentScrollY);
