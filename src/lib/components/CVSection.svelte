@@ -25,7 +25,7 @@ $: downloadFilename =
           <h3 class="text-xl font-black mb-4">{$t('cv.actions')}</h3>
           <div class="space-y-3">
             <a
-              href="/cv.pdf"
+              href="cv.pdf"
               download={downloadFilename}
               class="neobrut-btn bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 w-full text-center flex items-center justify-center gap-2"
             >
