@@ -13,7 +13,7 @@ const config = {
 			strict: false,
 		}),
 		paths: {
-			base: "",
+			base: "/kxrxh-site",
 		},
 	},
 };
