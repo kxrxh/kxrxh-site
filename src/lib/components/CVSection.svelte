@@ -51,7 +51,7 @@
         >
           <div class="border-4 border-gray-300 bg-gray-100">
             <object
-              data="/kxrxh-site/cv.pdf"
+              data="cv.pdf"
               type="application/pdf"
               width="100%"
               height="600px"
@@ -64,7 +64,7 @@
                   {$t('cv.pdfError')}
                 </p>
                 <a
-                  href="/kxrxh-site/cv.pdf"
+                  href="cv.pdf"
                   download={downloadFilename}
                   class="neobrut-btn bg-green-500 hover:bg-green-600 text-white px-8 py-4 inline-block"
                 >
